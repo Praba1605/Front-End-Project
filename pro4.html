@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GT Holidays Travels</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body style="margin-bottom: 4000px;">
+  <!-- social media Icon -->
+  <div class="social-icons-left">
+    <a href="https://wa.me/919876543210" target="_blank" class="btn btn-whatsapp" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://instagram.com/yourprofile" target="_blank" class="btn btn-instagram" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <!-- Enquiry Now Tab -->
+  <div class="enquiry-tab" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+    Enquiry Now
+  </div>
+
+   <!-- Enquiry Modal -->
+  <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <form class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="enquiryName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="enquiryName" required>
+          </div>
+          <div class="mb-3">
+            <label for="enquiryEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="enquiryEmail" required>
+          </div>
+          <div class="mb-3">
+            <label for="enquiryMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="enquiryMessage" rows="3" required></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Send Enquiry</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+    <!-- Creating Moving Text -->
+    <div class="container1 text-white  fw-bold fs-4">
+    <marquee>No.1 Travel Agency in South India</marquee>
+    </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center text-dark" href="#">
+        <img src="logo1.jpeg" alt="GT Holidays Logo">
+        GT Holidays
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#simple-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="simple-navbar">
+                <u1 class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark fs-4 ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#search" class="nav-link text-dark fs-4">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#dest" class="nav-link text-dark fs-4">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link text-dark fs-4">Group Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link text-dark fs-4">Contact Us</a>
+                    </li>
+                </u1>
+            </div>  
+    </div>
+  </nav> <br> <br>
+  <!-- Creating Carousel -->
+   <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="img-slider">
+    <div class="carousel-indicators">
+        <button class="active" data-bs-slide-to="0" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="1" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="2" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="3" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="4" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="5" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="6" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="7" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="8" data-bs-target="#img-slider"></button>
+        <button  data-bs-slide-to="9" data-bs-target="#img-slider"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img1.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+            <div class="carousel-caption">
+            <p class="h2 fs-1">Travel, WorldClass</p>
+            <p class="text-white fs-2">Across borders or across states, GT Holidays has you covered. Effortless travel, unforgettable memories—everywhere you go."</p>
+            </div> 
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img2.webp" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img3.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img4.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img5.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img6.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img7.webp" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img8.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img9.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img10.jpg" alt="Image not Available" class="d-block w-100" height="500px">
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#img-slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn btn-secondary"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#img-slider" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn btn-secondary"></span>
+    </button>
+   </div>
+
+   <!-- creating Popular palces -->
+ <h1 class="text-center fs-30px"> Popular Places</h1>
+    <div class="container py-5">
+    <div class="row g-4">
+      
+      <!-- India Tour Card -->
+     <div class="col-md-8">
+      <div class="tour-card">
+        <img src="pop1.jpg" alt="India Tour">
+        <div class="tour-text">
+          <h3>India Tour Packages</h3>
+          <button class="btn btn-yellow mt-2">98 TOURS</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- International Tour -->
+     <div class="col-md-4">
+      <div class="tour-card">
+        <img src="pop2.jpg" alt="International Tour">
+        <div class="tour-text">
+          <h3>International Tour Packages</h3>
+          <button class="btn btn-yellow mt-2">362 TOURS</button>
+        </div>
+      </div>
+     </div>
+     </div> <br> <br>
+
+     <!-- Educational Tour-->
+      <div class="row g-4">
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="pop6.jpg" alt="International Tour">
+                <div class="tour-text">
+                <h3>Educational Tour Packages</h3>
+                <button class="btn btn-yellow mt-2">25 TOURS</button>
+                </div>
+            </div>
+        </div>
+        <!-- Europe Tour -->
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="pop4.jpg" alt="International Tour">
+                <div class="tour-text">
+                <h3>Europe Tour Packages</h3>
+                <button class="btn btn-yellow mt-2">144 TOURS</button>
+                </div>
+            </div>
+        </div>
+        <!-- Temple Tour -->
+        <div class="col-md-4">
+            <div class="tour-card">
+                <img src="pop5.jpg" alt="International Tour">
+                <div class="tour-text">
+                <h3>Temple Tour Packages</h3>
+                <button class="btn btn-yellow mt-2">250 TOURS</button>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <!-- cards -->
+     <div class="container-fluid ms-auto">
+  <div class="row ps-2 pe-2 pt-3 pb-3">
+
+    <!-- Card 1 -->
+    <div class="col-4">
+      <div class="card info-card ">
+        <div class="info-icon ">
+          <img src="cust.png" alt="image not available">
+        </div>
+        <h5>50,000+ Abroad Trips</h5>
+        <p>For the last decade, GT Holidays has organized more than 50,000 international itineraries.</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-4">
+      <div class="card info-card">
+        <div class="info-icon">
+          <img src="loca.png" alt="image not available">
+        </div>
+        <h5>Handcrafted Experiences</h5>
+        <p>Each and every itinerary is customized according to the taste of the customers.</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-4">
+      <div class="card info-card">
+        <div class="info-icon">
+          <img src="happy.png" alt="image not available">
+        </div>
+        <h5>Extremely Happy Travellers</h5>
+        <p>GT Holidays holds a record of great customer satisfaction, and all customers are retained with us.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+     <!-- Cards Moving Slides -->
+<!-- Cards Moving Slides -->
+<div class="container py-5">
+  <h1 class="text-center fs-30px mb-4">GT Premium Group Tours</h1>
+  <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- SLIDE 1 (Cards 1, 2, 3) -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre1.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre2.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre3.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 2 (Cards 4, 5, 6) -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre4.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre5.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre6.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 3 (Cards 7,8,9) -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre7.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre8.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-bg img-fluid" style="background-image: url('pre9.png');"></div>
+              <div class="card-footer text-muted fs-8 bg-warning text-white">
+                Book it Right now,Limited seats only Available
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+<br><br>
+   
+   <!-- Creating Gallery Section -->
+    <div class="container p-3 id=gallery">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h5 class="display-4">
+            <span class="text-warning">Happy </span>
+            <span class="text-primary">Clients</span>
+          </h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="gal1.webp" height="450px" width="350px" alt="Image not Available">
+        </div>
+        <div class="col-md-4">
+          <img src="gal2.jpg" height="450px" width="350px" alt="Image not Available">
+        </div> <br>
+        <div class="col-md-4">
+          <img src="gal3.webp" height="450px" width="350px" alt="Image not Available">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="gal4.jpg" height="450px" width="350px" alt="Image not Available">
+        </div>
+        <div class="col-md-4">
+          <img src="gal5.jpg" height="450px" width="350px" alt="Image not Available">
+        </div>
+        <div class="col-md-4">
+          <img src="gal6.jpg" height="450px" width="350px" alt="Image not Available">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="gal7.webp" height="450px" width="350px" alt="Image not Available">
+        </div>
+        <div class="col-md-4">
+          <img src="gal8.webp" height="450px" width="350px" alt="Image not Available">
+        </div>
+        <div class="col-md-4">
+          <img src="gal9.jpg" height="450px" width="350px" alt="Image not Available">
+        </div>
+      </div>
+    </div> <br>
+            
+
+    <!-- Creating Contact form -->
+  <h1 class="text-center fs-2">Contact Us</h1>
+    <div class="container my-5">
+    <div class="row justify-content-center align-items-center">
+      <!-- Contact Info -->
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <div class="card border-0 shadow-sm py-5 px-3 text-center">
+          <h3 class="mb-4 fw-bold">Stay Connected</h3>
+          <div class="mb-3">
+            <span class="d-inline-block bg-warning rounded-circle p-3 mb-2">
+              <i class="fas fa-phone fa-lg"></i>
+            </span>
+            <div class="fs-5">+91 9940882200</div>
+          </div>
+          <hr>
+          <div class="mb-3">
+            <span class="d-inline-block bg-warning rounded-circle p-3 mb-2">
+              <i class="fas fa-envelope fa-lg"></i>
+            </span>
+            <div class="fs-5">mail@gtholidays.in</div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="card border-0 shadow-sm py-5 px-4">
+          <h3 class="mb-4 fw-bold text-center">Book Your Dream Vacay Today!</h3>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Name *</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">City of Residence *</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email *</label>
+              <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone Number *</label>
+              <div class="input-group">
+                <input type="tel" class="form-control" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">WhatsApp</label>
+              <div class="input-group">
+                <input type="tel" class="form-control">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Travel Destination *</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Date of Travel *</label>
+              <input type="date" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">No. of People *</label>
+              <input type="number" min="1" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Vacation Type *</label>
+              <select class="form-select" required>
+                <option value="">Select Type</option>
+                <option value="Friends Trip">Friends Trip</option>
+                <option value="Family Trip">Family Trip</option>
+                <option value="Corporate Trip">Corporate Trip</option>
+                <option value="Couple Trip">Couple Trip</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Captcha *</label>
+              <div class="mb-2">1 + 2 =</div>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-warning fw-bold py-2">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Locate us on Google Map -->
+  <div class="m-2">
+    <p class="h2 text-danger m-2">Locate us On Google Map</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7226927531524!2d80.24706877369685!3d13.053315187269614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52664148c6a96d%3A0xa11210d35ef5d3f9!2sGT%20Holidays!5e0!3m2!1sen!2sin!4v1760200637511!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+   <!-- Footer Section -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <h3 class="fs-2 text-success fw-bold">Visit Us</h3>
+                    <p>GT Holiday</p>
+                    <p>No.1, Gemini Parson Complex, Kodambakkam High Rd</p>
+                    <p>Tirumurthy Nagar, Nungambakkam</p>
+                    <p>Chennai-600001,Tamilnadu</p>
+                    <p>Open: Mon-Sat 8AM - 10PM</p>
+                    <p>Phone:(91) 9675438996</p>
+                </div>
+            </footer>
+      <script src="app.js"></script>     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
